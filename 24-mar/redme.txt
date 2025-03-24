@@ -1,3 +1,5 @@
+class dettails
+
 1) intro class
 2) constructor
 3) inheritance
