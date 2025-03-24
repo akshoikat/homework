@@ -118,3 +118,40 @@ $em->show();
 $ma = new manager("ariyan","manager",25,55000);
 $ma->show();
 ?>
+
+<!-- access modifire -->
+<?php
+class accessModifire{
+    public $massage;
+    private $age;
+
+    function __construct($msg, $age){
+        $this->massage = $msg;
+        $this->age = $age;
+    }
+
+    function show(){
+        echo "<h3>i am public class</h3>";
+        echo $this->massage;
+        echo $this->age;
+    }
+
+    protected function protect(){
+        echo "<h3>i am public class</h3>";
+        echo $this->massage;
+    }
+}
+$msg = new accessModifire("hallo i am a massage for access modifire ", 15);
+$msg->show();
+
+
+class protectdemo extends accessModifire{
+
+    public function protect(){
+        echo "<h3>i am protected class</h3>";
+        echo $this->massage;
+    }
+}
+$ex2 = new protectdemo("hallo i am a massage for access modifire",20);
+$ex2->protect();
+?>

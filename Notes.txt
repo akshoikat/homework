@@ -1,0 +1,51 @@
+class dettails
+
+1) intro class
+2) constructor
+3) inheritance
+4)access mdifire 
+
+
+
+intro
+--------
+class 
+property = variable 
+syntex = $variableName
+
+method = function
+syntex = function example(){............} 
+
+constructor
+-------------
+no need write extra code for declear value.
+need __ for use constructor
+syntex = function __construct(){................}
+
+inheritance
+--------------
+it can collups multiple class by extends
+syntex = class ex1 extends ex2{...........}
+
+access modifire  |
+------------------
+it has 3 modifire
+name = public , protected , private
+
+publis = access everywhare
+protected = acces it self and derive class
+private = access self class
+
+table......................................
+name..........class itself..........outsite ............deriive
+public............yes...............yes.................yes....
+protected.........yes...............no.................yes.....
+private...........yes...............no.................no......
+
+if i want to use thos  then what can i do..
+
+protected -> create new public function in derive class..
+private -> is not possible.
+
+
+
