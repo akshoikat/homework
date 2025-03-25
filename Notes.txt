@@ -5,6 +5,7 @@ class dettails
 3) inheritance
 4)access mdifire 
 5) over riding
+6) abstruct class
 
 
 
@@ -55,3 +56,52 @@ over riding
 use same property and method name in multiple class.
 output depand in call class. 
 example : 25-mar->index.php
+
+
+abstruct class
+---------------
+
+abstruct class need blank function foer call child class function impliment.
+
+syntex:
+abstruct class parent{
+
+    example in : 25-mar 
+}
+
+
+interface
+-----------
+
+interface is like inheritance.
+interface can impliment meny classes in one class called derive.
+syntex :
+
+interface a{
+    function hallo();
+    function hi();
+}
+interface b{
+    function hallo();
+    function hi();
+}
+interface c{
+    function hallo();
+    function hi();
+}
+interface d{
+    function hallo();
+    function hi();
+}
+
+derive class ->
+
+impliment chield class a , b , c , d{
+    public funtion hallo(){
+        echo "hallo";
+    }
+    public funtion hi(){
+        echo "hallo";
+    }
+
+}
