@@ -6,6 +6,10 @@ class dettails
 4)access mdifire 
 5) over riding
 6) abstruct class
+7) interface
+9) static members 
+10) late static binding 
+12) trait
 
 
 
@@ -105,3 +109,38 @@ impliment chield class a , b , c , d{
     }
 
 }
+
+
+static members 
+-----------------
+
+static function user by :: method.
+
+syntex : public static $name = "hallo";
+
+exicute if self self class -> self::$name = "ak";
+if derive class -> parent::$name = "ak";
+
+example -> 25-mar 
+
+late static binding 
+_-------------------
+
+suppos i have a parent class and derive class.
+satitc variable decleard in parent class. 
+i need to access this method frome derive class..
+now how can i do this ?
+
+syntex : static::$name
+solution in 25-mar.
+
+trait
+----------
+its like losagu..
+suppos i have a 1 commmon function and i want to use this function in every class.
+then use trait.
+syntex : trait traitClass{}
+class a{
+    use traitClass
+}
+
