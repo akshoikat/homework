@@ -4,6 +4,7 @@ class dettails
 2) constructor
 3) inheritance
 4)access mdifire 
+5) over riding
 
 
 
@@ -48,4 +49,9 @@ protected -> create new public function in derive class..
 private -> is not possible.
 
 
+over riding
+------------
 
+use same property and method name in multiple class.
+output depand in call class. 
+example : 25-mar->index.php
