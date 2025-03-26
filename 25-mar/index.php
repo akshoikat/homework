@@ -2,10 +2,6 @@
 
 <?php
 
-
-
-
-
 class based{
     public $name;
 
